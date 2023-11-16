@@ -1,4 +1,4 @@
 # hiperkomplekssayilar
-birinci committe sadece dosya yüklendi
-ikinci committe kompleks işlemler yüklendi
-v3'te quaterniyon çarpması yüklendi
+birinci committe sadece dosya yüklendi\n
+ikinci committe kompleks işlemler yüklendi\n
+v3'te quaterniyon çarpması yüklendi\n
