@@ -1,46 +1,46 @@
-# hiperkomplekssayilar
+# Hiperkompleks Sayılar
 ------------------------------kompleks sayılar------------------------------
 
-komplekstoplayaz(a1, b1, a2, b2) ==> (a1+b1i) ve (a2+b2i) şeklinde verilmiş iki kompleks sayıyı toplar ve yazar.
+kompleks_topla_yaz(c1,c2) ==> c1=(a1+b1i) ve  c2=(a2+b2i) şeklinde verilmiş iki kompleks sayıyı toplar ve yazar.
 
-komplekstopla(a1, b1, a2, b2) ==> (a1+b1i) ve (a2+b2i) şeklinde verilmiş iki kompleks sayıyı toplar ve (reelparca,sanalparca) şeklinde iki değer döndürür.
+kompleks_topla(c1, c2) ==>c1=(a1+b1i) ve  c2=(a2+b2i)şeklinde verilmiş iki kompleks sayıyı toplar ve (reelparca,sanalparca) şeklinde iki değer döndürür.
 
-komplekscikaryaz(a1, b1, a2, b2) ==> (a1+b1i) ve (a2+b2i) şeklinde verilmiş iki kompleks sayıyı çıkarır ve yazar.
+kompleks_cikar_yaz(c1, c2) ==> c1=(a1+b1i) ve  c2=(a2+b2i) şeklinde verilmiş iki kompleks sayıyı çıkarır ve yazar.
 
-komplekscikar(a1, b1, a2, b2) ==> (a1+b1i) ve (a2+b2i) şeklinde verilmiş iki kompleks sayıyı toplar ve (reelparca,sanalparca) şeklinde iki değer döndürür.
+kompleks_cikar(c1,c2) ==> c1=(a1+b1i) ve  c2=(a2+b2i) şeklinde verilmiş iki kompleks sayıyı toplar ve (reelparca,sanalparca) şeklinde iki değer döndürür.
 
-komplekscarpyaz(a1, b1, a2, b2) ==> (a1+b1i) ve (a2+b2i) şeklinde verilmiş iki kompleks sayıyı çarpar ve yazar.
+kompleks_carp_yaz(c1,c2) ==> c1=(a1+b1i) ve  c2=(a2+b2i) şeklinde verilmiş iki kompleks sayıyı çarpar ve yazar.
 
-komplekscarp(a1, b1, a2, b2) ==> (a1+b1i) ve (a2+b2i) şeklinde verilmiş iki kompleks sayıyı çarpar ve (reelparca,sanalparca) şeklinde iki değer döndürür.
+kompleks_carp(c1,c2) ==> c1=(a1+b1i) ve  c2=(a2+b2i) şeklinde verilmiş iki kompleks sayıyı çarpar ve (reelparca,sanalparca) şeklinde iki değer döndürür.
 
-kompleksbolyaz(a1, b1, a2, b2) ==> (a1+b1i) ve (a2+b2i) şeklinde verilmiş iki kompleks sayıyı böler ve yazar.
+kompleks_bol_yaz(c1,c2) ==>c1=(a1+b1i) ve  c2=(a2+b2i) şeklinde verilmiş iki kompleks sayıyı böler ve yazar.
 
-kompleksbol(a1, b1, a2, b2) ==> (a1+b1i) ve (a2+b2i) şeklinde verilmiş iki kompleks sayıyı böler ve (reelparca,sanalparca) şeklinde iki değer döndürür.
+kompleks_bol(c1,c2) ==> c1=(a1+b1i) ve  c2=(a2+b2i) şeklinde verilmiş iki kompleks sayıyı böler ve (reelparca,sanalparca) şeklinde iki değer döndürür.
 
-kompleksrotasyonuyaz(x, y, aci) ==> analitik düzlemde verilmiş bir kompleks sayıyı saat yönü tersine döndürür ve yazar.
+kompleks_rotasyon_yaz(c1, aci) ==> analitik düzlemde verilmiş bir kompleks sayıyı saat yönü tersine, verilen açı kadar döndürür ve yazar.
 
-kompleksrotasyonu(x, y, aci) ==> analitik düzlemde verilmiş bir kompleks sayıyı saat yönü tersine döndürür ve (reelparca,sanalparca) şeklinde iki değer döndürür.
+kompleks_rotasyon(c1, aci) ==> analitik düzlemde verilmiş bir kompleks sayıyı saat yönü tersine, verilen açı kadar döndürür ve (reelparca,sanalparca) şeklinde iki değer döndürür.
 
 ------------------------------kuaterniyonlar------------------------------
 
-kuaterniyontoplayaz(w1, x1, y1, z1, w2, x2, y2, z2) ==> (w1,x1,y1,z1) ve (w2,x2,y2,z2) şeklinde verilmiş iki kuaterniyonu toplar ve yazar.
+kuaterniyon_topla_yaz(q1,q2) ==> q1=(w1,x1,y1,z1) ve q2=(w2,x2,y2,z2) şeklinde verilmiş iki kuaterniyonu toplar ve yazar.
 
-kuaterniyontopla(w1, x1, y1, z1, w2, x2, y2, z2) ==> yukarıdakinin aynısı, (reelparca,sanalparcai,sanalparcaj,sanalparcak) şeklinde liste döndürür.
+kuaterniyon_topla(q1,q2) ==> yukarıdakinin aynısı, (reelparca,sanalparcai,sanalparcaj,sanalparcak) şeklinde liste döndürür.
 
-kuaterniyoncarpyaz(w1, x1, y1, z1, w2, x2, y2, z2) ==> (w1,x1,y1,z1) ve (w2,x2,y2,z2) şeklinde verilmiş iki kuaterniyonu çarpar ve yazar.
+kuaterniyon_carp_yaz(q1,q2) ==> q1=(w1,x1,y1,z1) ve q2=(w2,x2,y2,z2) şeklinde verilmiş iki kuaterniyonu çarpar ve yazar.
 
-kuaterniyoncarp(w1, x1, y1, z1, w2, x2, y2, z2) ==> yukarıdakinin aynısı, (reelparca,sanalparcai,sanalparcaj,sanalparcak) şeklinde liste döndürür.
+kuaterniyon_carp(q1,q2) ==> yukarıdakinin aynısı, (reelparca,sanalparcai,sanalparcaj,sanalparcak) şeklinde liste döndürür.
 
 ------------------------------oktaniyonlar------------------------------
 
-oktaniyontoplayaz(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p) ==> (a,b,c,d,e,f,g,h) ve (i,j,k,l,m,n,o,p) şeklinde verilmiş iki oktaniyonu toplar ve yazar.
+oktaniyon_topla_yaz(o1,o2) ==> o1=(a,b,c,d,e,f,g,h) ve o2=(i,j,k,l,m,n,o,p) şeklinde verilmiş iki oktaniyonu toplar ve yazar.
 
-oktaniyontopla(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p) ==> (a,b,c,d,e,f,g,h) ve (i,j,k,l,m,n,o,p) şeklinde verilmiş iki oktaniyonu toplar ve
+oktaniyon_topla(o1,o2) ==> o1=(a,b,c,d,e,f,g,h) ve o2=(i,j,k,l,m,n,o,p) şeklinde verilmiş iki oktaniyonu toplar ve
 (reelparca, birincisanal, ikincisanal, ucuncusanal, dorduncusanal, besincisanal, altincisanal, yedincisanal) şeklinde liste döndürür.
 
-oktaniyoncarp(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p) ==> (a,b,c,d,e,f,g,h) ve (i,j,k,l,m,n,o,p) şeklinde verilmiş iki oktaniyonu çarpar ve yazar.
+oktaniyon_carp(o1,o2) ==>o1=(a,b,c,d,e,f,g,h) ve o2=(i,j,k,l,m,n,o,p)  şeklinde verilmiş iki oktaniyonu çarpar ve yazar.
 
-oktaniyoncarp(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p) ==> (a,b,c,d,e,f,g,h) ve (i,j,k,l,m,n,o,p) şeklinde verilmiş iki oktaniyonu çarpar ve
+oktaniyon_carp(o1,o2) ==> o1=(a,b,c,d,e,f,g,h) ve o2=(i,j,k,l,m,n,o,p) şeklinde verilmiş iki oktaniyonu çarpar ve
 (reelparca, birincisanal, ikincisanal, ucuncusanal, dorduncusanal, besincisanal, altincisanal, yedincisanal) şeklinde liste döndürür.
 
 
