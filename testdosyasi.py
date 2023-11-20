@@ -38,3 +38,9 @@ print(hiperkompleks.oktaniyon_topla(o1, o2))
 
 hiperkompleks.oktaniyon_carp_yaz(o1, o2)
 print(hiperkompleks.oktaniyon_carp(o1, o2))
+
+print(hiperkompleks.kompleks_buyukluk([5, 5]))
+
+print(hiperkompleks.kompleks_fazacisi([2, 3]))
+
+print(hiperkompleks.kompleks_us_al([2, 3], 2))

@@ -96,16 +96,16 @@ def kuaterniyon_topla(q1, q2):
     sanalparcak = (z1 + z2)
     return reelparca, sanalparcai, sanalparcaj, sanalparcak
 
-def kompleks_rotasyon_yaz(q1, aci):
-    x, y = q1
+def kompleks_rotasyon_yaz(c1, aci):
+    x, y = c1
     c = math.cos(aci)
     s = math.sin(aci)
     reelparca = (c*x)-(s*y)
     sanalparca = (c*y)+(s*x)
     print(f"reel parça:{reelparca}, sanal parça{sanalparca}i, {aci} derece döndürüldü")
 
-def kompleks_rotasyon(q1, aci):
-    x, y = q1
+def kompleks_rotasyon(c1, aci):
+    x, y = c1
     c = math.cos(aci)
     s = math.sin(aci)
     reelparca = (c*x)-(s*y)
@@ -168,8 +168,8 @@ def oktaniyon_carp_yaz(o1, o2):
     print(f"üçüncü parça:{ucuncusanal}e3, dördüncü sanal parça:{dorduncusanal}e4, ikinci sanal parça:{besincisanal}e5,")
     print(f"reel parça:{altincisanal}e6, birinci sanal parça:{yedincisanal}e7,")
 
-def kuaterniyon_ters(c1):
-    w1, x1, y1, z1 = c1
+def kuaterniyon_ters(q1):
+    w1, x1, y1, z1 = q1
     ters = [w1, -x1, y1, z1]
     return ters
 
@@ -188,3 +188,34 @@ def kuaterniyon_rotasyon(q1, donusvektoru, aci):
     sonuc = kuaterniyon_carp(rotasyonkuaterniyonu, q1)
 
     return sonuc
+
+def kompleks_us_al(c1, n):
+    a, b = c1
+    teta = math.atan(b/a)
+    rn = (kompleks_buyukluk(c1))**n
+    reelsonuc = rn * (math.cos(n * teta))
+    sanalsonuc = rn * (math.sin(n * teta))
+    return [reelsonuc, sanalsonuc]
+
+def kompleks_buyukluk(c1):
+    a, b = c1
+    sonuc = math.sqrt((a**2)+(b**2))
+    return sonuc
+
+def kompleks_fazacisi(c1):
+    a, b = c1
+    if a == 0:
+        if b > 0:
+            return math.pi / 2
+        elif b < 0:
+            return -math.pi / 2
+        else:
+            return None
+
+    aci = math.atan(b / a)
+    if a < 0:
+        aci = math.pi + aci
+    elif b < 0:
+        aci += 2 * math.pi
+
+    return math.degrees(aci)
